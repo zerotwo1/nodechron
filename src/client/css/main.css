@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Bahiana|Bangers|Bungee+Shade|Gochi+Hand');
+
+
+/* 
+font-family: 'Bungee Shade', cursive;
+font-family: 'Bahiana', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Gochi Hand', cursive;
+*/
+
+/* Reset */
+html,
+body,
+div {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Box-sizing border-box */
+* {
+  box-sizing: border-box;
+}
+
+/* Set up a default font and some padding to provide breathing room */
+body {
+  background-color: #161a20;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:url(/assets/wallpaper.jpg);
+}
+
+p {
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  color:#fff;
+}
+
+ul {
+  margin: 10px 0 0;
+  padding: 0 0 0 20px;
+}
+
+li {
+  font-weight: 400;
+  margin-top: 4px;
+}
+
+input {
+  border: 0px solid #106cc8;
+  font-size: 34px;
+  height: 75px;
+  width:500px !important;
+  outline: none;
+  padding: 8px;
+  font-family: 'Gochi Hand', cursive;
+
+}
+
+button {
+  background-color: #46e031;
+  border-style: none;
+  color: rgba(255, 255, 255, 0.87);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 34px;
+  padding: 8px 18px;
+  text-decoration: none;
+  font-family: 'Bahiana', cursive;
+  margin-top:40px;
+}
+
+button:hover {
+  background-color: #28739e;
+}
+
+h1 {
+  font-family: 'Bahiana', cursive;
+  font-size:66px;
+  color:#fff;
+}
+.home-gou-face {
+  width:50%;
+  position:fixed;
+  top:0;
+
+}
+.home-gou-computer {
+  width:80%;
+
+}
+.home-jp-clock {
+  width:40%;
+  float:left;margin-left:-16%;margin-top:-11%;
+}
+.home-tesla-worried{
+  width:45%;
+  float:right;margin-top:-14%;
+  margin-right:-15%;
+
+}
+.home-chron{
+  width:45%;
+  float:center;
+  margin-top:14%;
+
+}
+
+.bangers {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 0.01em;
+  line-height: 40px;
+  font-size:36px;
+  padding:2%;
+
+}
+.bungee {
+  font-family: 'Bungee Shade', cursive;
+}
+.bahiana {
+  font-family: 'Bahiana', cursive;
+}
+.gochi {
+  font-family: 'Gochi Hand', cursive;
+}
+
+.bub-small {
+  max-width: 290px;
+  position:fixed;
+  right:10%;
+  top:15%;
+}
+
+.bub-med {
+  max-width: 320px;
+  position:fixed;
+  right:0px;
+}
+
+.bub-large {
+  max-width: 520px;
+  position:fixed;
+  right:5%;
+  top:25%;
+}
+
+.speech-bubble {
+  display: inline-block;
+  vertical-align: top;
+  height: auto;
+  border: 1px solid #161a20;
+  position: absolute;
+  margin-left: 15px;
+  background-color:#fff;
+  -moz-border-radius: 20px / 20px;
+  -webkit-border-radius: 20px 20px;
+  border-radius: 20px / 20px;
+}
+.speech-bubble:before {
+  content: "";
+  position: absolute;
+  left: 12px;
+  border-top: 0px solid transparent;
+  border-right: 13px solid #161a20;
+  border-bottom: 17px solid transparent;
+  margin: 24px 0 0 -25px;
+}
+.speech-bubble:after {
+  content: "";
+  position: absolute;
+  left: 18px;
+  top: 53px;
+  border-top: 1px solid #ffffff;
+  border-right: 12px solid #ffffff;
+  border-bottom: 15px solid transparent;
+  margin: -28px;
+  width: 0px;
+}
+.speech-bubble p {
+  padding: 20px;
+  margin: 0;
+  font-size: 36px;
+}
+
+
+md-card {
+  max-width: 80%;
+  margin: 2em auto;
+  text-align: center;
+}
+
+md-toolbar-row {
+  justify-content: space-between;
+}
+
+.done {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+/*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
+
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* The only rule that matters */
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}

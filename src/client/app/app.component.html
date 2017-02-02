@@ -1,0 +1,8 @@
+<sd-toolbar></sd-toolbar>
+<sd-navbar></sd-navbar>
+<ul>
+  <li class="text" *ngFor="let item of items | async">
+    {{item.$value}}
+  </li>
+</ul>
+<router-outlet></router-outlet>
